@@ -1,0 +1,75 @@
+header {
+	top:0;
+}
+#submit {
+width:150px;
+height:40px;
+background: linear-gradient(to bottom, grey 0%,black 50%,grey 100%);
+border-radius:5px;
+color:white;
+font:bolder;
+cursor:pointer;
+}
+#submit:hover{
+	background: black;
+}
+.content {
+	background-color: grey;
+	height:37em;
+	top:4.6em;
+	position: relative;
+	width: 100%;
+	font-size: 1.25em;
+}
+footer {
+	margin-top:5.5em;
+}
+textarea {
+	width:40em;
+	height:20em;
+}
+.contactme, .form, .title {
+	padding-left:5%;
+}
+.contactme {
+	width: 50%;
+}
+.contacts {
+	width:50%;
+	float:left;
+	padding-top:2%;
+}
+.map {
+	padding-top: 1.5%;
+}
+
+.title h2 {
+	font-size: 2em;
+}
+@media only screen and (max-width : 950px) {
+.contacts {
+float:none;
+}
+.map iframe {
+padding-left: 3%;
+}
+.title h2{
+	margin-left: -2%;
+}
+.content {
+	height: 75em;
+}
+.contactme p {
+	width: 200%;
+}
+}
+@media only screen and (max-width : 580px) {
+textarea {
+width:22.5em;
+}
+}
+@media only screen and (max-width : 490px) {
+.map iframe {
+width:250px;
+}
+}
